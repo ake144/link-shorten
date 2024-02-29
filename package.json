@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@upstash/redis": "^1.28.4",
+    "@vercel/postgres": "^0.7.2",
+    "body-parser": "^1.20.2",
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
