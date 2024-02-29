@@ -62,13 +62,6 @@ export default function Home() {
         </button>
       </form>
 
-      {shortURL && (
-        <div>
-          <h1 className="text-4xl font-bold">Your shortened URL is:</h1>
-          <h1 className="text-4xl font-bold">{`http://localhost:3000/go/${shortURL}`}</h1>
-        </div>
-      )}
-
       <table>
         <thead>
           <tr>
